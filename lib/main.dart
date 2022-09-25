@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_time_picker_widget/time_picker.dart';
+import 'package:flutter_time_picker_widget/time_picker_2.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const TimePickerWidget(),
+      home: const TimePickerWidget2(),
     );
   }
 }
